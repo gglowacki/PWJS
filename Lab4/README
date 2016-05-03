@@ -1,0 +1,7 @@
+How to run:
+#RENAME: 
+  ./rename <change_pattern> <file_name_pattern>
+  example: ./rename "s/(\d)/0$1/s" *.c 
+#AMEND:
+  ./amend <change_pattern> <file_names> 
+  example: ./amend "s/^/\t/" *.pl
